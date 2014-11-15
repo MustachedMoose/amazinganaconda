@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Varela);
-$font-family-sans-serif:  'Varela', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+$font-family-sans-serif:  'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-bg: #34495e;
 $navbar-default-bg: #8e44ad;
 $navbar-default-link-color: white;
+$navbar-height: 40px;
 $table-border-color: #ecf0f1;
 $jumbotron-bg: white;
 @import 'bootstrap-sprockets';
@@ -10,4 +11,8 @@ $jumbotron-bg: white;
 
 .center {
 	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
 }
