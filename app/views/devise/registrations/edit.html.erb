@@ -37,6 +37,9 @@
       </div>
       <% end %>
     </div> <!-- panel-body-->
+        <div class="panel panel-footer">  
+          <%= link_to "Back", :back %>
+        </div>
 </div> <!-- panel-deafult -->
 <div class="panel panel-default">
     <div class="panel panel-heading">
@@ -44,7 +47,9 @@
     </div>  
     <div class="panel panel-body">
       <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "btn btn-warning btn-md" %></p>
-    </div>  
-<%= link_to "Back", :back %>
+    </div>
+        <div class="panel panel-footer">  
+            <%= link_to "Back", :back %>
+        </div>
 
 </div> <!-- /cancel panel -->
