@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
+gem 'rake', '~> 10.3.2'
 
 group :development, :test do
 	gem 'sqlite3'
